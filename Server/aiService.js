@@ -1,3 +1,4 @@
+// Connecting through gemini or OpenAI api
 // server/aiService.js
 require('dotenv').config();
 const { GoogleGenerativeAI } = require("@google/generative-ai");
@@ -57,5 +58,6 @@ async function judgeDebate(topic, transcript) {
     return { winner: "Error", reasoning: "Could not judge debate." };
   }
 }
+
 
 module.exports = { generateRebuttal, judgeDebate };
