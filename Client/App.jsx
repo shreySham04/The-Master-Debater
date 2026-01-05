@@ -1,3 +1,4 @@
+//Main JSX code fot the app
 import { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import io from 'socket.io-client';
