@@ -1,2 +1,2 @@
 # The-Master-Debater
-A debating model for user to debate with each other and also AI (currently in working stage)
+A online debating competition which  will be judged by famous LLM as well as for single player you can  directly with AI/Chatbot.
